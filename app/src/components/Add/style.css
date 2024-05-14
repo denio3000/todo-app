@@ -1,0 +1,30 @@
+
+.input-container {
+  padding: 20px 10px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+input.validation-error {
+  border-color: red;
+}
+input + .msg {
+  display: none;
+}
+input.validation-error + .msg {
+  display: block;
+  padding: 5px 0;
+  font-style: italic;
+  color: #777;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  display: block;
+  margin: 20px 0;
+}

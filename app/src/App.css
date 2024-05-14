@@ -1,0 +1,12 @@
+.app-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-list {
+  width: 800px;
+}
+.item {
+  text-align: left;
+}
